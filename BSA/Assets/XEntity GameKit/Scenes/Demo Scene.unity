@@ -424,7 +424,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: abe8891459efa584cb7b99994fd6dfea, type: 2}
     - target: {fileID: 4490459622650576402, guid: 7ec268d119c305d4792a8606d7aad080, type: 3}
       propertyPath: itemList.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4490459622650576402, guid: 7ec268d119c305d4792a8606d7aad080, type: 3}
       propertyPath: itemList.Array.data[0]
@@ -444,6 +444,10 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 0794a1903408dda46ae77208afb1f7cc, type: 2}
     - target: {fileID: 4490459622650576402, guid: 7ec268d119c305d4792a8606d7aad080, type: 3}
       propertyPath: itemList.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 66e2b9711ae9f3d43992af21a534f5c9, type: 2}
+    - target: {fileID: 4490459622650576402, guid: 7ec268d119c305d4792a8606d7aad080, type: 3}
+      propertyPath: itemList.Array.data[5]
       value: 
       objectReference: {fileID: 11400000, guid: 66e2b9711ae9f3d43992af21a534f5c9, type: 2}
     - target: {fileID: 4997861115516984229, guid: 7ec268d119c305d4792a8606d7aad080, type: 3}
@@ -2616,7 +2620,7 @@ SceneRoots:
   - {fileID: 705507995}
   - {fileID: 785129901}
   - {fileID: 982037920}
-  - {fileID: 2059474858}
   - {fileID: 108631368}
   - {fileID: 1641637051}
   - {fileID: 246354856}
+  - {fileID: 2059474858}
