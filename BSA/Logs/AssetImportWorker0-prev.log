@@ -1,0 +1,557 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16225 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/BSA
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50004
+Successfully changed project path to: D:/BSA
+D:/BSA
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21740] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 2951207405 [EditorId] 2951207405 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DBLQJ5R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21740] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 2951207405 [EditorId] 2951207405 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DBLQJ5R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 101.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/BSA/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4017 MB
+    Driver:   31.0.15.4665
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.023298 seconds.
+- Loaded All Assemblies, in  0.575 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 290 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.796 seconds
+Domain Reload Profiling: 1367ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (107ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (164ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (201ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (796ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (707ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (475ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\BSA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\BSA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.990 seconds
+Refreshing native plugins compatible for Editor in 4.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.941 seconds
+Domain Reload Profiling: 1928ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (616ms)
+		LoadAssemblies (432ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (310ms)
+			TypeCache.Refresh (269ms)
+				TypeCache.ScanAssembly (243ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (942ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (692ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (487ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3850 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (184.3 KB). Loaded Objects now: 4327.
+Memory consumption went from 161.2 MB to 161.1 MB.
+Total: 4.708500 ms (FindLiveObjects: 0.438500 ms CreateObjectMapping: 0.261500 ms MarkObjects: 3.759800 ms  DeleteObjects: 0.247700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 653.850038 seconds.
+  path: Assets/Medieval_boxes_free/Big_box.FBX
+  artifactKey: Guid(099b6dd3e33ead547a0501317f431bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_boxes_free/Big_box.FBX using Guid(099b6dd3e33ead547a0501317f431bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a88d59589bec0bb4258f5bf6371191') in 0.246408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.058371 seconds.
+  path: Assets/Medieval_boxes_free/Textures
+  artifactKey: Guid(357c36965cc7aa049a1879b4fbb3f209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_boxes_free/Textures using Guid(357c36965cc7aa049a1879b4fbb3f209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135e8fbf998bfe50958e5936e70a8eba') in 0.001091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.119421 seconds.
+  path: Assets/Medieval_boxes_free/Textures/Boxes_color.tif
+  artifactKey: Guid(06741547b70d1544c9663d6089b9afa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_boxes_free/Textures/Boxes_color.tif using Guid(06741547b70d1544c9663d6089b9afa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1786f53f849bd206ef46e1ab77bb58') in 0.036321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.152940 seconds.
+  path: Assets/Junkyard models
+  artifactKey: Guid(23e6fbf6ff1e2e14da3614decb467234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models using Guid(23e6fbf6ff1e2e14da3614decb467234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801da5aaf949dd7738f880c68df83951') in 0.000750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.117421 seconds.
+  path: Assets/Junkyard models/Models
+  artifactKey: Guid(0f8568dfe778b444ba345e588b3d5a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models using Guid(0f8568dfe778b444ba345e588b3d5a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade3c3239f000aa6362c50b4bf2bd9c3') in 0.000670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.000355 seconds.
+  path: Assets/Junkyard models/Models/Bench
+  artifactKey: Guid(9ab415929a167b74bab2dd213573c57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Bench using Guid(9ab415929a167b74bab2dd213573c57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8e21c1eab17ac5c8d6f4c0bf67ae72') in 0.000649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.096914 seconds.
+  path: Assets/Junkyard models/Models/Bench/Bench.obj
+  artifactKey: Guid(09134dac7d7e67e47ba8497eeae5394d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Bench/Bench.obj using Guid(09134dac7d7e67e47ba8497eeae5394d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be82c6ad937d0e30150098b4be8e73a') in 0.025701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 5.752861 seconds.
+  path: Assets/Junkyard models/Models/Bus
+  artifactKey: Guid(456673c042c425f4db6ed11cca72db5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Bus using Guid(456673c042c425f4db6ed11cca72db5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec77fe8c3f72a056b5925affa55e8a49') in 0.000714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.068130 seconds.
+  path: Assets/Junkyard models/Models/Bus/Bus.obj
+  artifactKey: Guid(25671eb8f306a4a40811f0705e38cc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Bus/Bus.obj using Guid(25671eb8f306a4a40811f0705e38cc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebec2db52ee315e3106f7433ff8e045') in 0.024217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 11.361680 seconds.
+  path: Assets/Junkyard models/Models/Cart
+  artifactKey: Guid(30cbb0cfadadcfd428773f90682c4fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Cart using Guid(30cbb0cfadadcfd428773f90682c4fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08af978bacd6d1259bbd49f3101c6bc') in 0.000695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.090896 seconds.
+  path: Assets/Junkyard models/Models/Cart/Cart.obj
+  artifactKey: Guid(7cd293d8f69b3fa4292d2bf6b4e60304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Cart/Cart.obj using Guid(7cd293d8f69b3fa4292d2bf6b4e60304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf73fc0e03e65d026c5014cf69b4b8b') in 0.025412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 10.367685 seconds.
+  path: Assets/Junkyard models/Models/Electric
+  artifactKey: Guid(c064f25ee3d46344d8e55d8608da2e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Electric using Guid(c064f25ee3d46344d8e55d8608da2e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beefe4cc7ac7b943ab2ba0f6303ea349') in 0.000693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.067727 seconds.
+  path: Assets/Junkyard models/Models/Electric/Electric00.obj
+  artifactKey: Guid(bb9c226855cc8584a847a9d2b0dea912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Electric/Electric00.obj using Guid(bb9c226855cc8584a847a9d2b0dea912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d327beb845b9f3bd99bab55808ee35') in 0.026565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Junkyard models/Models/Electric/Electric01.png
+  artifactKey: Guid(aa0443c2e925f05458af67c6b6d9ee42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Electric/Electric01.png using Guid(aa0443c2e925f05458af67c6b6d9ee42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94970735a0f3f4dda3e1eea949815fe1') in 0.028266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Junkyard models/Models/Electric/Electric03.png
+  artifactKey: Guid(fa9f03b5a6e3286499a534c052637e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Electric/Electric03.png using Guid(fa9f03b5a6e3286499a534c052637e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292ad9ff3d3b33703a4bbde7b2878c08') in 0.024285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Junkyard models/Models/Electric/Electric02.obj
+  artifactKey: Guid(ba97e6e510dc7c1468c9a56e646434c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Electric/Electric02.obj using Guid(ba97e6e510dc7c1468c9a56e646434c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a954588258a2cad2b30ad58ef4cf2e') in 0.025186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 17.217987 seconds.
+  path: Assets/Junkyard models/Models/Locker/Locker0.obj
+  artifactKey: Guid(c0e3bf591f3f0724a941d0eb463e3689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Locker/Locker0.obj using Guid(c0e3bf591f3f0724a941d0eb463e3689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc77463baf898124a810bec4587bfcec') in 0.024466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 5.589880 seconds.
+  path: Assets/Junkyard models/Models/Pallet/Pallet.png
+  artifactKey: Guid(8299bc4c2c7aaf1458bf572b306e5a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Pallet/Pallet.png using Guid(8299bc4c2c7aaf1458bf572b306e5a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12d8e395a301e16a0670a3b806a2b95') in 0.025908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Junkyard models/Models/Pallet/PalletBricks.png
+  artifactKey: Guid(2624062d9f4e96f4c9fd957434ff60a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Pallet/PalletBricks.png using Guid(2624062d9f4e96f4c9fd957434ff60a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c0932e59dde392acc90e7754cea2f2') in 0.022024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 22.909817 seconds.
+  path: Assets/Junkyard models/Models/Part/Part00.png
+  artifactKey: Guid(df932f34f076a95419d97230a9cfe981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Part/Part00.png using Guid(df932f34f076a95419d97230a9cfe981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074346c1dabbd4fe14f6cfe16f8ced98') in 0.028160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.210885 seconds.
+  path: Assets/Junkyard models/Models/Plane/Plane0.png
+  artifactKey: Guid(4847feefc603b4848be5003ed9dc2e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Plane/Plane0.png using Guid(4847feefc603b4848be5003ed9dc2e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a02cb21c40f36f14810929128e4e688') in 0.025767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.740704 seconds.
+  path: Assets/Junkyard models/Models/Pole/Pole.png
+  artifactKey: Guid(e1ec0f40ab3edb14db90e08ae3f7659f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Pole/Pole.png using Guid(e1ec0f40ab3edb14db90e08ae3f7659f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08590572878c55e64300e4d07784b29a') in 0.022721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 18.911600 seconds.
+  path: Assets/Junkyard models/Models/Rack/Rack0.obj
+  artifactKey: Guid(d5427507dd9b82c4b9c5082baf00a9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Rack/Rack0.obj using Guid(d5427507dd9b82c4b9c5082baf00a9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7895e6424c6c9e056b199fa3671ffe8') in 0.116326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 50.617644 seconds.
+  path: Assets/Junkyard models/Models/Barrier/Barrier.png
+  artifactKey: Guid(74a2d68efbc681940b0960a87032eacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Barrier/Barrier.png using Guid(74a2d68efbc681940b0960a87032eacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5811f2e09c729fab303c71199ec3127a') in 0.025072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 40.389475 seconds.
+  path: Assets/Junkyard models/Models/Box/Box0.obj
+  artifactKey: Guid(30632b5d632d2c545ba8cc142519ce91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Box/Box0.obj using Guid(30632b5d632d2c545ba8cc142519ce91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d737d36ce9915c00dd38932e9f1a04') in 0.024514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Junkyard models/Models/Box/Box1.obj
+  artifactKey: Guid(24fc8ea403751f04fbc063d34dc45439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Box/Box1.obj using Guid(24fc8ea403751f04fbc063d34dc45439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d2b4b3f908f2f0dee5d6b1479fcc88') in 0.024468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 19.004585 seconds.
+  path: Assets/Junkyard models/Models/Block/Block.png
+  artifactKey: Guid(adf8708d3a6b4bb41be29f6675664c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Block/Block.png using Guid(adf8708d3a6b4bb41be29f6675664c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8393cddc8200082d7045b03c7e4f48ae') in 0.025172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 58.046259 seconds.
+  path: Assets/Junkyard models/Models/Bush/Bush02.png
+  artifactKey: Guid(fafe6e54004e59740a17f3f0f29faa42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Bush/Bush02.png using Guid(fafe6e54004e59740a17f3f0f29faa42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c934500573a8b5c2892d2ca31d5bb7ae') in 0.027579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Junkyard models/Models/Bush/Bush03.png
+  artifactKey: Guid(2fcbed49bae8d594cb4980d35b0d36e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Bush/Bush03.png using Guid(2fcbed49bae8d594cb4980d35b0d36e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7342c2130f185f3a5e2fdcaa1643b0') in 0.026234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\BSA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\BSA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.661 seconds
+Refreshing native plugins compatible for Editor in 4.43 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.323 seconds
+Domain Reload Profiling: 1980ms
+	BeginReloadAssembly (232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (311ms)
+		LoadAssemblies (417ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1324ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (679ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (465ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3804 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (158.0 KB). Loaded Objects now: 4355.
+Memory consumption went from 150.5 MB to 150.3 MB.
+Total: 5.489300 ms (FindLiveObjects: 0.661300 ms CreateObjectMapping: 0.337900 ms MarkObjects: 4.302100 ms  DeleteObjects: 0.187100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 838.097588 seconds.
+  path: Assets/Junkyard models/Models/Car/Car0.png
+  artifactKey: Guid(59cf96c72af4b6d468810fc710ee5468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Car/Car0.png using Guid(59cf96c72af4b6d468810fc710ee5468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cd155263be4ef4d9bad9cacf29487b') in 0.078250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Junkyard models/Models/Car/Car1.png
+  artifactKey: Guid(f596580299bce61448f22d79fde179b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Car/Car1.png using Guid(f596580299bce61448f22d79fde179b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79215f44668380e329ecb35c89a65209') in 0.025090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Junkyard models/Models/Car/Car1.obj
+  artifactKey: Guid(3b6f5a7a1b9d5b44ba0d8136fcab450e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Car/Car1.obj using Guid(3b6f5a7a1b9d5b44ba0d8136fcab450e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7559c2fc24715246853c0fbe53f5291c') in 0.092391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 12.420449 seconds.
+  path: Assets/Junkyard models/Models/Cargo/Cargo1.png
+  artifactKey: Guid(dab6ab242a7b9814f91f217f811aea37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Cargo/Cargo1.png using Guid(dab6ab242a7b9814f91f217f811aea37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb7dd7048caff2edf5a0635e67938e0') in 0.030685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Junkyard models/Models/Cargo/CargoB0.obj
+  artifactKey: Guid(5161c2c79aa7dc44b8a812f624bf37d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Cargo/CargoB0.obj using Guid(5161c2c79aa7dc44b8a812f624bf37d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cc07ceff4646249b68f395c5fc2c10') in 0.028957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Junkyard models/Models/Cargo/CargoA0.obj
+  artifactKey: Guid(bc84bc3e95ede6f47a9e34322599b6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Cargo/CargoA0.obj using Guid(bc84bc3e95ede6f47a9e34322599b6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfa258f2ae5ba7ba4877ce4ca255ee3') in 0.026371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Junkyard models/Models/Cargo/CargoA1.obj
+  artifactKey: Guid(00ba75879d6ef5745a4888259bde7c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Junkyard models/Models/Cargo/CargoA1.obj using Guid(00ba75879d6ef5745a4888259bde7c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777093586572cd967e98402c18df477e') in 0.025620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
